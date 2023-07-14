@@ -3,8 +3,8 @@
 
 ---
 
-### Status2
-2
+### Status
+
 > <white> Status : <green> Working </green><br>
 > Version: <green> 1.0.0.0 </green>
 
@@ -15,7 +15,7 @@ Scripts to build a trimmed-down Windows 11 image.
 
 This is a script to automate the build of a streamlined Windows 11 image, similar to mini11.
 My main goal is to use only Microsoft utilities like DISM, and nothing external. The only executable included is oscdimg.exe, which is provided in the Windows ADK and it is used to create bootable ISO images. Also included is an unattended answer file, which is used to bypass the MS account on OOBE and to deploy the image with the /compact flag.
-It's open-source, so feel free to add or remove anything you want! Feedback is also much appreciated.2
+It's open-source, so feel free to add or remove anything you want! Feedback is also much appreciated.
 
 As of now, only build 22621.1702 (the one that can be downloaded from the Microsoft website), 22621.1992 (the latest public build) and 25905 (latest Insider build as of now) are supported.
 
